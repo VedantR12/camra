@@ -9,7 +9,7 @@ import {
 } from "../components/Icons"
 import "../styles/upload.css"
 
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = import.meta.env.VITE_API_URL
 
 export default function UploadReport() {
     const navigate = useNavigate()
